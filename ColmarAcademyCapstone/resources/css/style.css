@@ -1,4 +1,54 @@
 html {
   font-size: 16px;
-  
+}
+body {
+  font-family: "Rubik", "Arial", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1, h3 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*****header*****/
+header {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logoimg {
+  height: 2rem;
+}
+.colmar {
+  font-weight:700;
+}
+nav {
+  padding-right: 24px;
+  }
+nav span {
+  padding-right: 16px;
+}
+
+/*****main*****/
+.main {
+  padding-left: 24px;
+
+}
+
+.learn .text {
+  display: block;
 }
